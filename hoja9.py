@@ -18,6 +18,13 @@ def dijkstra(G, origen):
     costos = nx.single_source_dijkstra_path_length(G, origen)
     return rutas, costos
 
+def dibujar_mapa(G, origen):
+    pos = nx.spring_layout(G)
+    nx.draw(G, pos, with_labels=True)
+    nx.draw_networkx_nodes(G, pos, nodelist=[origen], node_color='r')
+    plt.title(f"Mapa de destinos desde {origen}")
+    plt.show()
+
 def main():
     archivo_rutas = 'rutas.txt'
     G = cargar_rutas(archivo_rutas)
