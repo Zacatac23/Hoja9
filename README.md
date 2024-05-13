@@ -11,10 +11,10 @@ Para ejecutar este programa, asegúrate de tener Python instalado en tu sistema.
 
 1. **Ejecución del programa:**
 
-    Para ejecutar el programa, simplemente ejecuta el archivo `gestor_rutas.py` en tu terminal o entorno de Python preferido.
+    Para ejecutar el programa, simplemente ejecuta el archivo `Hoja9.py` en tu terminal o entorno de Python preferido.
 
     ```
-    python gestor_rutas.py
+    python Hoja9.py
     ```
 
 2. **Interacción con el programa:**
